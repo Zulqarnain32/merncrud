@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(62, 44, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-container{
+  padding: 10px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+table{
+  width: 100%;
+  text-align: center;
+  /* border-collapse: separate; */
+  border-spacing: 0 20px;
+}
+.adduser{
+  width: 70px;
+  font-size: 17px;
+}
+.update-btn-link{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* creating user css  */
+.create-user-container{
+  padding: 20px 12px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+h1{
+  margin-bottom: 8px;
+}
+h3{
+  margin-bottom: 5px;
+}
+input{
+  width: 100%;
+  height: 34px;
+  font-size: 19px;
+  padding: 0 10px;
+  margin-bottom: 14px;
+}
+.submit{
+  background-color: rgb(3, 101, 31);
+  color: #fff;
+  cursor: pointer;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-top: 7px;
+  border: none;
+}
+.update-btn{
+  background-color: rgb(131, 204, 5);
+  height: 30px;
+  border:none;
+}
+.update{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2px;
+  padding: 0 2px;
+}
+.delete{
+  background-color: red;
+  height: 30px;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  padding: 0 5px;
+  margin-left: 2px;
+}
+.table-rows{
+  margin-top: 30px !important;
+  margin-bottom: 40px;
+}
+
+
+@media(max-width:400px){
+  .user-container{
+    width: 350px !important;
+    font-size: 13px;
+  }
+  .create-user-container{
+    width: 340px;
+  }
+}
